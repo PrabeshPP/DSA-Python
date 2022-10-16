@@ -10,6 +10,7 @@ if __name__=="__main__":
     secondNode=Node(10)
     thirdNode=Node(20)
     
+    
     # Linking two nodes
     llist.head.next=secondNode
     secondNode.next=thirdNode

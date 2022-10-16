@@ -8,3 +8,4 @@ class LinkedList:
             print(temp.data)
             temp=temp.next
             
+            

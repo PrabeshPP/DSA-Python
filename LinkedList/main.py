@@ -14,6 +14,11 @@ if __name__=="__main__":
     # Linking two nodes
     llist.head.next=secondNode
     secondNode.next=thirdNode
+    llist.addToFront(300)
+    llist.addToFront(2)
+    llist.addToFront(700)
+    
+    
     
     
     llist.printList()

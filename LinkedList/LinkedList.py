@@ -49,7 +49,15 @@ class LinkedList:
         currNode=self.head
         self.head=currNode.next
         currNode=None
-                
+    
+    def removeFromBack(self):
+        currNode=self.head
+        prevNode=None
+        while(currNode.next!=None):
+            prevNode=currNode
+            currNode=currNode.next
+        currNode=None
+        prevNode.next=None     
         
             
         

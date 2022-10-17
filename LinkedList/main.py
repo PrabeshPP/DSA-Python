@@ -16,11 +16,14 @@ if __name__=="__main__":
     secondNode.next=thirdNode
     
     #adding node at the front of the linked list
+    # ---------------------------Add To Front------------------------------------------
     llist.addToFront(300)
     llist.addToFront(2)
     llist.addToFront(700)
     
+    
     #adding node at the back of the linked list
+    # ---------------------------Add To Back-------------------------------------------
     llist.addToBack(55)
     llist.addToBack(555)
     llist.addToBack(5555)
@@ -31,8 +34,11 @@ if __name__=="__main__":
     
     #printing all the Node of the Linked List``
     llist.printList()
-    print("---------------------------------------------------------------")
+    print("---------------------------Remove From Front------------------------------------")
     llist.removeFromFront()
+    llist.printList()
+    print("-----------------------------Remove from Back-------------------------------------")
+    llist.removeFromBack()
     llist.printList()
     
     

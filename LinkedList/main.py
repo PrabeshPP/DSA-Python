@@ -40,5 +40,7 @@ if __name__=="__main__":
     print("-----------------------------Remove from Back-------------------------------------")
     llist.removeFromBack()
     llist.printList()
-    
+    print("-----------------------------Remove from given Index-------------------------------------")
+    llist.removeFromIndex(3)
+    llist.printList()
     

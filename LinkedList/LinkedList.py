@@ -57,7 +57,26 @@ class LinkedList:
             prevNode=currNode
             currNode=currNode.next
         currNode=None
-        prevNode.next=None     
+        prevNode.next=None
+    
+    def removeFromIndex(self,index):
+        currNode=self.head
+        currNode=self.head
+        prevNode=None
+        i=0
+        while(i<index and currNode!=None):
+            prevNode=currNode
+            currNode=currNode.next
+            i=i+1
+        
+        if(currNode==None and i>index):
+            print("invalid argument")
+        
+        else:
+            prevNode.next=currNode.next
+            currNode=None
+
+             
         
             
         

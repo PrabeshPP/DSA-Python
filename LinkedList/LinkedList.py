@@ -45,7 +45,11 @@ class LinkedList:
             elementToBeAdded.next=currNode
 
         
-        
+    def removeFromFront(self):
+        currNode=self.head
+        self.head=currNode.next
+        currNode=None
+                
         
             
         

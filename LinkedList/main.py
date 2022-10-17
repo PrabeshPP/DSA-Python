@@ -31,5 +31,8 @@ if __name__=="__main__":
     
     #printing all the Node of the Linked List``
     llist.printList()
+    print("---------------------------------------------------------------")
+    llist.removeFromFront()
+    llist.printList()
     
     

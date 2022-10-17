@@ -25,9 +25,11 @@ if __name__=="__main__":
     llist.addToBack(555)
     llist.addToBack(5555)
     
+    llist.addToIndex(121,5)
     
     
-    #printing all the Node of the Linked List
+    
+    #printing all the Node of the Linked List``
     llist.printList()
     
     

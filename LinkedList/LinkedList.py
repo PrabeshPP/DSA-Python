@@ -24,6 +24,26 @@ class LinkedList:
         temp.next=nodeToAddBack
         nodeToAddBack.next=None
         
+    
+    # adding Node at the given index 
+
+    def addToIndex(self,data,index):
+        currNode=self.head
+        prevNode=None
+        elementToBeAdded=Node(data)
+        i=0
+        while(i<index and currNode!=None):
+            prevNode=currNode
+            currNode=currNode.next
+            i=i+1
+        
+        if(currNode==None and i>index):
+            print("invalid argument")
+        
+        else:
+            prevNode.next=elementToBeAdded
+            elementToBeAdded.next=currNode
+
         
         
         

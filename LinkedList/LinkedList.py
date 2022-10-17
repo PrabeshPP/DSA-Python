@@ -10,6 +10,25 @@ class LinkedList:
         nodeToAdd.next=self.head
         self.head=nodeToAdd
         
+    # adding to the back of the Linked List
+    
+    def addToBack(self,data):
+        temp=self.head
+        
+        nodeToAddBack=Node(data)
+        
+        #finding the last element in LinkedList
+        while(temp.next!=None):
+            temp=temp.next
+        
+        temp.next=nodeToAddBack
+        nodeToAddBack.next=None
+        
+        
+        
+        
+            
+        
         
         
     #Traversing the LinkedList

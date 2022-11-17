@@ -5,4 +5,4 @@ class Solution:
             difference=target-value
             if difference in dict:
                 return [dict[difference],key]
-            difference[value]=key
+            dict[value]=key
